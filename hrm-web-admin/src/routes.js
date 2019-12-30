@@ -8,11 +8,18 @@ import Page4 from './views/nav2/Page4.vue'
 import Page5 from './views/nav2/Page5.vue'
 import echarts from './views/charts/echarts.vue'
 import CourseType from './views/course/CourseType.vue'
+import TenantRegister from './views/TenantRegister.vue'
 
 let routes = [
     {
         path: '/login',
         component: Login,
+        name: '',
+        hidden: true
+    },
+    {
+        path: '/tenant/register',
+        component: TenantRegister,
         name: '',
         hidden: true
     },
